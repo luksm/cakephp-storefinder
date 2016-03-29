@@ -220,3 +220,5 @@ Type::build('date')
 Type::build('datetime')
     ->useImmutable()
     ->useLocaleParser();
+
+Configure::write('Gmaps.API', 'AIzaSyBwhfWmyPTnenNtzvWtyOPyYoVKXXFht7c');
